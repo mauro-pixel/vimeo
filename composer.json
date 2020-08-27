@@ -1,0 +1,22 @@
+{
+    "name": "vimeo/vimeo",
+    "type": "library",
+    "version": "v0.1",
+    "description": "Vimeo API",
+    "keywords": ["vimeo", "api"],
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "Vimeo",
+            "homepage": "http://vimeo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0",
+        "vimeo/vimeo-api": "^3.0",
+        "ext-curl": "*",
+        "ext-json":"*",
+        "ankitpokhrel/tus-php": "^v1.0.0 || ^v2.0.0"
+    }
+}
